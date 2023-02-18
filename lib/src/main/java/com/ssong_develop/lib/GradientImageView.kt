@@ -34,7 +34,6 @@ class GradientImageView @JvmOverloads constructor(
     private var gradientAlpha = 1.0f
     private var direction: GradientDirection = GradientDirection.LEFT_TO_RIGHT
 
-    // for CornerRadius
     private var cornerRadius by OnChangeProperty(context.dpToPixelFloat(0)) {
         updateBackground()
     }
